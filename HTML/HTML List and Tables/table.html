@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table</title>
+
+    <style>
+      /* internal css to add inside style tag */
+      table {
+        border-collapse: collapse;
+      }
+      table td,
+      table th {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML Table</h1>
+    <ul>
+      <li>table - tag that used to create html table</li>
+      <li>tr - table row</li>
+      <li>td - table data also know as table cell</li>
+      <li>th - table header cell</li>
+      <li>thead - table header tag to place table header data</li>
+      <li>tfoot - table footer data</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>header 1</th>
+          <th>header 2</th>
+          <th>header 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">data 1</td>
+          <td>data 2</td>
+          <td>data 3</td>
+        </tr>
+        <tr>
+          <td>data 2</td>
+          <td>data 3</td>
+        </tr>
+        <tr>
+          <td>data 1</td>
+          <td>data 2</td>
+          <td>data 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="3">table footer</td>
+      </tfoot>
+      <caption>
+        A Demo HTML Table
+      </caption>
+    </table>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur_2.jpg/800px-Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur_2.jpg"
+      alt=""
+    />
+  </body>
+</html>
