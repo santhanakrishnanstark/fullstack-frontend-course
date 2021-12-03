@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags</title>
+
+    <style>
+      /* div  - css selector  */
+      /* for class selector: use dot eg: (.class-name) */
+      /* for id selector: use hash eg: (#id-name) */
+
+      .background-crimson {
+        border: 1px solid #000;
+        background-color: crimson;
+        color: #fff;
+        font-size: 14px;
+      }
+      .text-back {
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Tags</h1>
+    </header>
+
+    <main>
+      <section id="oneUniqueName" class="background-crimson text-back">
+        <h2>Wrapper tags</h2>
+        <ul>
+          <li>
+            <strong>Div</strong> - Division tag (it is a container for flow
+            contnet)
+          </li>
+          <li><strong>header</strong> - to wrap the header content.</li>
+          <li><strong>main</strong> - to wrap the main content of the page</li>
+          <li><strong>footer</strong> - to wrap the footer content</li>
+          <li>
+            <strong>section</strong> - we can use both div or section tag to
+            create a group of content.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Attributes</h2>
+        <ul>
+          <li>
+            <strong>id</strong> - an Id name should not be repeated, one unique
+            name for per page.
+          </li>
+          <li>
+            <strong>class</strong> - It used to specify a class for html
+            element, we can have same class name in multiple places. it used to
+            apply same style for different tags.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>DIV Tag</h2>
+        <div class="background-crimson">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            voluptate praesentium laudantium sed officia nihil earum neque iusto
+            at deserunt nisi vitae facere, et provident ea voluptates
+            aspernatur. Porro, ratione.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            voluptate
+          </p>
+          <ul>
+            <li>text 1</li>
+            <li>text 2</li>
+            <li>text 3</li>
+          </ul>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            voluptate
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            voluptate
+          </p>
+        </div>
+        <div class="main">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            doloribus doloremque delectus consectetur distinctio libero
+            consequuntur obcaecati odio quia animi dicta, sit tempore molestias
+            tempora nobis, perferendis numquam accusantium minus?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            doloribus doloremque delectus consectetur distinctio libero
+            consequuntur obcaecati odio quia animi dicta, sit tempore molestias
+            tempora nobis, perferendis numquam accusantium minus?
+          </p>
+        </div>
+      </section>
+
+      <section id="formating-element">
+        <h2>HTML Formating Element</h2>
+        <ul>
+          <li>b - create <b>bold</b> text</li>
+          <li>strong - make an <strong>important</strong> text</li>
+          <li>i - make <i>italic</i> text</li>
+          <li>em - make <em>emphases</em> to text</li>
+          <li>small - make <small>smaller</small> text</li>
+          <li>del - <del>deleted</del> text</li>
+          <li>ins - <del>old text</del> <ins>inserted</ins> text</li>
+          <li>sub - subscript <sub>text</sub></li>
+          <li>sup - superscript <sup>text</sup></li>
+          <li>
+            pre -
+            <pre>
+            preserve 
+            text ..........
+            space
+          </pre
+            >
+          </li>
+          <li>u - to <u>underline</u> text</li>
+        </ul>
+      </section>
+
+      <article>article tag</article>
+    </main>
+
+    <footer>
+      <small>copywrite @test.com</small>
+    </footer>
+  </body>
+</html>
