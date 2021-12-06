@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Basic HTML Form</legend>
+        <div class="form-control">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            placeholder="enter your name"
+            id="name"
+            class="text-input"
+          />
+          <!-- span is an inline container, it dont take entire row. -->
+          <span> input type:text </span>
+        </div>
+        <div class="form-control">
+          <label for="city">city:</label>
+          <input
+            type="text"
+            placeholder="enter your city"
+            id="city"
+            class="text-input"
+          />
+          <span> input type:text </span>
+        </div>
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            placeholder="enter your email"
+            id="email"
+            class="text-input"
+          />
+          <span> input type:email </span>
+        </div>
+        <div class="form-control">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            placeholder="enter your password"
+            id="password"
+            class="text-input"
+          />
+          <span> input type:password </span>
+        </div>
+        <div class="form-control">
+          <label>Gender</label>
+          <input type="radio" name="gender" id="gen-male" />
+          <label for="gen-male">Male</label>
+          <input type="radio" name="gender" id="gen-female" />
+          <label for="gen-female">Female</label>
+        </div>
+        <div class="form-control">
+          <label>Eligibility</label>
+          <input type="radio" name="eligiblity" id="above18" />
+          <label for="above18">Above 18</label>
+          <input type="radio" name="eligiblity" id="below18" />
+          <label for="below18">Below 18</label>
+        </div>
+        <div class="form-control">
+          <label for="review">Review:</label>
+          <!-- input has single closing tag whereas textarea has double closing tag -->
+          <textarea
+            placeholder="enter your review"
+            id="review"
+            class="text-input"
+            rows="5"
+            cols="20"
+          ></textarea>
+          <span> input textarea </span>
+        </div>
+        <div class="form-actions">
+          <input type="submit" value="submit" />
+        </div>
+      </fieldset>
+    </form>
+
+    <ul>
+      <li>
+        Radio button - by using radio button we can select only one option from
+        the radio button group.
+      </li>
+      <li>
+        Checkbox - by using checkbox we can select multiple values from checkbox
+        group.
+      </li>
+    </ul>
+  </body>
+</html>
