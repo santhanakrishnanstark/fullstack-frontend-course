@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Forms</title>
+    <style>
+      [readonly] {
+        background-color: #ccc;
+      }
+    </style>
   </head>
   <body>
     <form>
       <fieldset>
         <legend>Basic HTML Form</legend>
         <div class="form-control">
-          <label for="name">Name:</label>
+          <label for="name">Name: *</label>
           <input
             type="text"
             placeholder="enter your name"
             id="name"
             class="text-input"
+            required
+            value="test"
+            disabled
           />
           <!-- span is an inline container, it dont take entire row. -->
           <span> input type:text </span>
@@ -28,26 +36,30 @@
             placeholder="enter your city"
             id="city"
             class="text-input"
+            value="chennai"
+            readonly
           />
           <span> input type:text </span>
         </div>
         <div class="form-control">
-          <label for="email">Email:</label>
+          <label for="email">Email: *</label>
           <input
             type="email"
             placeholder="enter your email"
             id="email"
             class="text-input"
+            required
           />
           <span> input type:email </span>
         </div>
         <div class="form-control">
-          <label for="password">Password:</label>
+          <label for="password">Password: *</label>
           <input
             type="password"
             placeholder="enter your password"
             id="password"
             class="text-input"
+            required
           />
           <span> input type:password </span>
         </div>
@@ -60,10 +72,43 @@
         </div>
         <div class="form-control">
           <label>Eligibility</label>
-          <input type="radio" name="eligiblity" id="above18" />
+          <input
+            type="radio"
+            name="eligiblity"
+            value="above18"
+            id="above18"
+            checked
+          />
           <label for="above18">Above 18</label>
-          <input type="radio" name="eligiblity" id="below18" />
+          <input type="radio" name="eligiblity" value="below18" id="below18" />
           <label for="below18">Below 18</label>
+        </div>
+        <div class="form-control">
+          <label for="qualifications">Qualifications</label>
+          <input type="checkbox" name="qualifications" id="bba" />
+          <label for="bba">BBA</label>
+          <input type="checkbox" name="qualifications" id="bca" checked />
+          <label for="bca">BCA</label>
+          <input type="checkbox" name="qualifications" id="mba" />
+          <label for="mba">MBA</label>
+          <input type="checkbox" name="qualifications" id="mca" />
+          <label for="mca">MCA</label>
+        </div>
+        <div class="form-control">
+          <label for="language">Language</label>
+          <select name="language" id="language">
+            <option value="eng">English</option>
+            <option value="tam" selected>Tamil</option>
+            <option value="hin">Hindi</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="form-control">
+          <label for="age">AGE:</label>
+          <input type="number" name="age" id="age" min="5" max="400" />
         </div>
         <div class="form-control">
           <label for="review">Review:</label>
@@ -87,11 +132,26 @@
       <li>
         Radio button - by using radio button we can select only one option from
         the radio button group.
+        <strong>
+          (If the number of options is limited or small only we can use
+          checkbox)
+        </strong>
       </li>
       <li>
         Checkbox - by using checkbox we can select multiple values from checkbox
         group.
+        <strong
+          >(If the number of options is limited or small only we can use
+          checkbox)</strong
+        >
       </li>
+      <li>
+        Dropdown/select - if the number of options is exceeded more than 10 then
+        we can use dropdown to select single/multiple values
+      </li>
+      <li>readonly - make the field not editable but it is focuable</li>
+      <li>disabled - make the field not editable and can't be focused.</li>
+      <li>selected - to set default select option for select tag</li>
     </ul>
   </body>
 </html>
