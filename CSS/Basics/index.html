@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- if the css is added inside style tag in a same html file is called => Internal CSS -->
+    <style>
+      a:hover {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS => if the css is added inside the tag itself -->
+    <h1 style="color: red">CSS Basics</h1>
+
+    <p class="para">Basic Syntax for CSS:</p>
+    <img
+      src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png"
+      alt="css-syntax"
+      width="400"
+    />
+
+    <ul>
+      <h2>Selectors in CSS</h2>
+      <li>Element or Tag selector: eg: h1, p, div</li>
+      <li>Class selector: eg: .my-class</li>
+      <li>Id selector eg: #my-id</li>
+      <li>
+        Attribute selector: eg: [property] or we can use both property and value
+        => syntax: [property="value"] eg: [class="text-input"]
+      </li>
+      <li>
+        Pesudo Selector: eg: :pesudo-name { property: value }
+        <a href="#">hover me to see pesudo css effect</a>
+      </li>
+    </ul>
+
+    <h2 class="para">CSS Implementations or way to use css in HTML document</h2>
+    <ul>
+      <li>
+        Inline Styles =>
+        <strong>if the css is added inside the tag itself</strong>
+      </li>
+      <li>
+        Internal Styles =>
+        <strong
+          >if the css is added inside style tag in a same html file is called =>
+          Internal CSS</strong
+        >
+      </li>
+      <li>
+        External Stylesheets =>
+        <strong
+          >to create new css file and link with HTML document using link
+          tag</strong
+        >
+      </li>
+    </ul>
+
+    <h2 class="para">Basics CSS Properties</h2>
+
+    <p class="para">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo fugiat
+      minima eum non possimus distinctio quaerat rerum, libero error
+      consequuntur ratione! Enim maiores repellat nihil praesentium nisi,
+      aperiam facere quaerat!
+    </p>
+  </body>
+</html>

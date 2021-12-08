@@ -1,0 +1,14 @@
+.para {
+    background-color: yellow;
+    color: brown;
+    width: 500px;
+    /* height: 100px;  we should avoid height property in css most of the cases. */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center; /* default value: left */
+    font-style: italic;
+    line-height: 1.2;
+    letter-spacing: 4px;
+}
