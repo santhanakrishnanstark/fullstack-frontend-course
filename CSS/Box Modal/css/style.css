@@ -1,0 +1,39 @@
+body {
+    padding-left: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    border: 2px solid orange;
+    padding: 15px;
+    display: inline-block;
+    margin: 20px;
+
+    /* to restrict the box height and width with the specified css value, use 'box-sizing' */
+    box-sizing: border-box;
+
+    /* vertical align supports on display: inline-block; if the both element is in inline block */
+    vertical-align: middle;
+
+    /* 
+        margin-,
+        padding-,
+        border-
+
+        left,
+        right,
+        bottom,
+        top
+
+        eg: border-top: 1px solid red;
+    */
+}
+
+.box1 {
+    width: 65%;
+}
+.box2 {
+    width: 30%;
+}
