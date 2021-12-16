@@ -51,6 +51,14 @@ section .editor {
     background-color: #fff;
     border-left: 4px solid #04aa6d;
     margin-bottom: 16px;
+    overflow: auto;
+
+    /* background css */
+    background-image: url("images/night-sky.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bg-darkblue {
