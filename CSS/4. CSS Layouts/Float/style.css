@@ -29,3 +29,54 @@ section {
 .main-section {
     clear: both;
 }
+
+/* float.html css */
+
+.float-page {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.float-page section {
+    background-color: transparent;
+}
+
+.float-page header {
+    background-color: silver;
+    text-align: center;
+}
+
+.float-page .left,
+.float-page .right {
+    padding: 8.4px;
+}
+
+.float-page article h2 {
+    font-weight: bold;
+    background: #cef2e0;
+    border:1px solid #a3bfb1;
+    margin-top: 0px;
+}
+
+.float-page article img {
+    float: left;
+    margin-right: 20px;
+}
+
+.float-page article p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.float-page article .article-footer {
+    text-align: right;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.bg-green {
+    border:1px solid #cef2e0;
+    background-color: #f5fffa;
+}
