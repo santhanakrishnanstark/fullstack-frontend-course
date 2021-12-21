@@ -1,0 +1,39 @@
+header {
+    background-color: rgb(17, 14, 14);
+    padding: 30px;
+
+}
+header h2 {
+    margin: 0px;
+    background-color: darkgreen;
+}
+
+section {
+    
+    padding: 20px;
+    margin: 10px;
+    float: left;/* this makes perfect in order.if u write right 
+    ,then the order will change and it will be display from right to 
+    right */
+}
+
+.lesson-1 {
+    width: 30%;/* this size will differ accoding the % */
+    background-color: brown;
+
+}
+
+.lesson-2 {
+    width: 45%;
+    background-color: chartreuse;
+}
+
+.lesson-3 {
+    width: 60%;
+    background-color: cornflowerblue;
+}
+
+.main-lesson {
+    clear: both;
+    background: crimson;
+}

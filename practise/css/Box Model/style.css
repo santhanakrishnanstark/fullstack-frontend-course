@@ -1,0 +1,27 @@
+
+.bg-black
+{
+    background-color: black;
+}
+.next
+{
+    width: 100px;
+
+    background-color: red;
+    margin: 30px;
+    margin-left: 100px;
+    color: white;
+    padding: 20px;
+
+}
+.right img {
+    border:3px solid  blanchedalmond;
+}
+
+.right,
+.left
+{
+display: inline-block;
+width: 45%;
+vertical-align: middle;
+}

@@ -1,0 +1,38 @@
+
+
+.title
+{
+    background-color: gray;
+
+}
+
+.bg-blue
+{
+    background-color: blue;
+}
+.body2
+{
+    background-color: rgb(25, 223, 114);
+}
+
+.body3
+{
+    background-color: rgb(196, 18, 151);
+}
+.body4
+{
+    background-color: greenyellow;
+}
+
+.body5
+{
+    background-color: orange;
+}
+
+table td 
+{
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}

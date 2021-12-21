@@ -1,0 +1,67 @@
+.container
+{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section
+{
+    padding: 24px;
+}
+section .left,
+section .right
+
+{
+    display: inline-block;
+    width: 43%;
+    vertical-align: top;
+    padding: 3%;
+
+}
+section h1
+{
+    font-size: 45px;
+    font-weight: 700;
+}
+section p
+{
+   font-size: 18px;
+}
+section a
+{
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 240px;
+    border-radius: 25px;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 25px;
+
+    }
+/*   this is for a buttom         */
+   
+.text-white
+{
+ color: white;
+
+}
+
+.bg-black
+{
+    background-color: #FFC0C7;
+    
+}
+.bg-yellow
+{
+    background-color: #FFF4A3;
+}
+
+
+
+

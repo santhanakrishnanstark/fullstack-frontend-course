@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Registration Form</legend>
+            <!--<h1>
+                Registration Form
+            </h1>--><!--this means registration form will be inside the form-->
+            
+            <div class="form-control"><!--div is for displaying n next line-->
+                <label for="name">Name: *</label><!--for="name"is for displaying the cursor on that box fleid-->
+              <input type="text"
+                  placeholder="enter your name"
+                  id="name"
+                  class="text-input"
+                /><!--placeholder is used for writing the msg inside the box-->
+               <!--text-input is for answer must be be n text-->
+              </div>
+            
+              <div class="form-control">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" /> <!--date inbuild in html-->
+              </div>
+
+          <div class="form-control">
+                <label for="Age">Age: *</label>
+                <input type="text"
+                  placeholder="enter your Age"
+                  id="Age"
+                  class="text-input"
+                />
+              </div>
+              
+              <div class="form-control">
+                <label for="language">Language</label>
+                <select name="language" id="language">
+                  <option value="eng">English</option>
+                  <option value="tam" selected>Tamil</option>
+                  <option value="hin">German</option>
+                </select>
+              </div>
+
+              <div class="form-control">
+                <label for="Occupation">Occupation: *</label>
+                <input type="text"
+                  placeholder="enter your Occupation"
+                  id="Occupation"
+                  class="text-input"
+                />
+               </div>
+
+
+              <div class="form-control">
+                <label for="email">Email: *</label>
+                <input type="email"
+                  placeholder="enter your email"
+                  id="email"
+                  class="text-input"
+                />
+                </div>
+
+
+              <div class="form-control">
+                <label for="Username">Username: *</label>
+                <input type="Username"
+                  placeholder="enter your Username"
+                  id="Username"
+                  class="text-input"
+                />
+                </div>
+
+              
+              <div class="form-control">
+                <label for="password">Password: *</label>
+                <input type="password"
+                  placeholder="enter your password"
+                  id="password"
+                  class="text-input"
+                />
+               </div>
+
+
+              <div class="form-control">
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="gen-male" />
+                <label for="gen-male">Male</label>
+                <input type="radio" name="gender" id="gen-female" />
+                <label for="gen-female">Female</label>
+              </div>
+
+              <div class="form-control">
+                <label>Eligibility:</label>
+                <input type="radio" name="eligiblity" id="above18" />
+                <label for="above18">Above 18</label>
+                <input type="radio" name="eligiblity" id="below18" />
+                <label for="below18">Below 18</label>
+              </div><!--radio button is used select only one option from
+                the radio button group.-->
+
+              <div class="form-control">
+                <label for="qualifications">Qualifications</label>
+                <input type="checkbox" name="qualifications" id="bba" />
+                <label for="bba">BBA</label>
+                <input type="checkbox" name="qualifications" id="bca" checked /><!--checked is for selecting the item-->
+                <label for="bca">BCA</label>
+                <input type="checkbox" name="qualifications" id="mba" />
+                <label for="mba">MBA</label>
+                <input type="checkbox" name="qualifications" id="mca" />
+                <label for="mca">MCA</label>
+              </div>
+
+
+              <div class="form-control">
+                <label for="city">City:</label>
+                <input
+                  type="text"
+                  placeholder="Enter your City"
+                  id="city"
+                  class="text-input"
+                  value="Madurai"
+                  readonly /><!--readonly is for readonly -->
+
+              <div class="form-control">
+                <label for="Short Bio"><b>Short Bio:</b></label>
+                
+                <textarea
+                  placeholder="Write about yourself"
+                  id="Short Bio"
+                  class="text-input"
+                  rows="5"
+                  cols="20"
+                ></textarea>
+              
+              </div>
+              <div class="form-actions">
+                <input type="submit" value="submit" />
+              </div>
+            </fieldset>
+          </form>
+      
+          
+        </body>
+      </html>
+
+
+      

@@ -1,0 +1,24 @@
+header,aside,main,footer
+{
+/*border: 1px solid;*/
+margin: 5px;
+padding: 10px;
+background-color: silver;
+
+
+}
+
+aside
+{
+    float: left;
+    width: 20%;
+}
+main
+{
+    float: right;
+    width: 75%;
+}
+footer
+{
+    clear: both;
+}
