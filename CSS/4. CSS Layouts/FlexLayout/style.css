@@ -1,0 +1,55 @@
+.container {
+    border: 3px dashed orange ;
+    padding: 15px;
+    background-color: #eee;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    background-color: orange;
+}
+
+.flex.container {
+    /* flex css */
+    display: flex;
+
+    /* to wrap the flex item into new line  */
+    flex-wrap: wrap;
+}
+
+.flex.justify-content.container {
+    justify-content: space-between;   /* space-around/ space-evenly / center */
+}
+
+/* to work with align items for practice purpose we change the height of the boxes using pesudo selector (:) */
+.flex.align-items.container .box:first-child {
+    height: 50px;
+}
+.flex.align-items.container .box:last-child {
+    height: 90px;
+}
+.flex.align-items.container .box:nth-child(3) {
+    height: 120px;
+}
+.flex.align-items.container .box:nth-child(5) {
+    height: 130px;
+}
+
+.flex.align-items.container {
+    align-items: center;   /* baseline/space-around/ space-evenly / center */
+}
+
+/* flex direction css */
+.flex.direction.container .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+.flex.direction.container {  
+    flex-direction: column;    /* row/column/row-reverse/column-reverse */
+}

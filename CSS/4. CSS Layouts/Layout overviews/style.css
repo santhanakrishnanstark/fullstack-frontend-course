@@ -1,0 +1,43 @@
+.container {
+    border: 3px dashed orange ;
+    padding: 15px;
+    background-color: #eee;
+}
+
+.block {
+    height: 100px;
+    width: 49%;
+    margin: 5px;
+    background-color: orange;
+}
+
+.inline-block {
+    height: 100px;
+    width: 49%;      /*need for inline block element*/
+    margin: 5px;
+    background-color: orange;
+
+    /* inline block */
+    display: inline-block;
+}
+
+.float {
+    height: 100px;
+    width: 49%;    /*need for inline block element*/
+    margin: 5px;
+    background-color: orange;
+
+    /* float */
+    float: left;
+}
+
+.float-container {
+    float: left;
+    width: 98%;
+}
+
+/* to clear the float element */
+
+.clearfix {
+    clear: both;
+}
