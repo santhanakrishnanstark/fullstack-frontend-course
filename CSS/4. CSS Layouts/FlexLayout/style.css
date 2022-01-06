@@ -53,3 +53,28 @@
 .flex.direction.container {  
     flex-direction: column;    /* row/column/row-reverse/column-reverse */
 }
+
+/* order */
+
+.flex.direction.container.order .box-1{
+    order: 1;
+}
+.flex.direction.container.order .box-2{
+    order: 2;
+}
+.flex.direction.container.order .box-3{
+    order: 3;
+}
+
+/* gap */
+
+.flex.gap .box{
+    margin: 0px;
+}
+
+.flex.gap {
+    /* gap: 15px; */
+
+    column-gap: 15px;
+    row-gap: 35px;
+}
