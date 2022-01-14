@@ -1,0 +1,57 @@
+.container {
+    border: 3px dashed orange ;
+    padding: 15px;
+    background-color: #eee;
+    max-width: 1600px;
+    margin: 0 auto 50px; /* 3 parameter value: top left/right bottom */
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    background-color: orange;
+}
+
+.relative .box{
+    position: relative;
+    top: 14px;
+    left: 200px;
+}
+
+.absolute .box.type-1 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.absolute.type-2 {
+    position: relative;
+}
+.absolute .box.type-2 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+
+    height: 80px;
+    width: 80px;
+}
+
+.fixed .box {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky {
+    height: 300px;
+    width: 50%;
+    overflow: auto;
+}
+.sticky .box {
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}

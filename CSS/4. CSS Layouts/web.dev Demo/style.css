@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    font-family: Google Sans,Segoe UI,system-ui,-apple-system,sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+    border-bottom: 1px solid #d2d3d7;
+}
+
+.nav-menu a {
+    padding: 27px 36px;
+    display: inline-block;
+    color: #585b63;
+    text-decoration: none;
+    font-size: 18px;
+}
