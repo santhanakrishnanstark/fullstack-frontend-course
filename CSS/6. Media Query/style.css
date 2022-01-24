@@ -1,0 +1,26 @@
+.section {
+    background-color: #ccc;
+    height: 500px;
+}
+
+/* with min , max */
+
+/* for mobile upto 767,
+    for ipad starts with 768 to 1024
+    remaining desktop
+*/
+
+/* for mobile media query */
+@media (max-width: 767px) {
+    .section {
+        background-color: cornflowerblue;
+    }
+}
+
+
+/* for ipad */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section {
+        background-color: orange;
+    }
+}

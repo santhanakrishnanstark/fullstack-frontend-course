@@ -8,6 +8,7 @@ header {
     justify-content: space-between;
     padding: 0px 32px;
     border-bottom: 1px solid #d2d3d7;
+    min-height: 4rem;
 }
 
 .nav-menu a {
@@ -16,4 +17,128 @@ header {
     color: #585b63;
     text-decoration: none;
     font-size: 18px;
+}
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* section css */
+section {
+    padding: 90px 0px;
+    background-color: #f8f9fa;
+}
+
+section .section-top-title {
+    line-height: 1.7;
+    font-size: 18px;
+    color: #585b63;
+}
+
+section .section-left-image {
+    margin-top: 60px;
+}
+
+section h1 {
+    margin-top: 36px;
+    color: #191919;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 0px;
+}
+
+section .left h1,
+section .left p {
+    max-width: 485px;
+}
+section p {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 30.6px;
+    color: #191919;
+    margin-bottom: 0px;
+}
+
+section .primary-btn {
+    margin-top: 60px;
+    background-color: #3740ff;
+    border: 1px solid #3740ff;
+    color: #fff;
+    padding: 22.4px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 16px;
+    border-radius: 3px;
+    letter-spacing: 0.324px;
+    cursor: pointer;
+}
+
+section .primary-btn:hover {
+    box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 10%), 0px 8px 8px 1px rgb(0 0 0 / 7%), 0px 3px 8px 2px rgb(0 0 0 / 8%);
+    transition: transform 200ms linear,box-shadow 200ms linear,filter 400ms ease;
+}
+
+section .container {
+    display: flex;
+}
+
+section .container > div {
+    width: 50%;
+}
+
+section .card-wrapper {
+    margin-left: 58px;
+}
+
+.card-wrapper .card {
+    max-width: 560px;
+    padding: 20px;
+    border: 1px solid #d2d3d7;
+    border-radius: 10px;
+    height: 273px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card.event-image {
+    background-image: url(https://web-dev.imgix.net/image/jxu1OdD7LKOGIDU7jURMpSH2lyK2/eLup3ce5FiasuQ3DX61F.jpg?auto=format);
+}
+
+.card.case-image {
+    background-image: url(https://web-dev.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/Yz5G0leLpdHLidygym31.jpg?auto=format&w=571);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 32px;
+    color: #fff;
+}
+
+
+/* media query */
+
+@media (max-width: 1024px) {
+    .nav-menu {
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+    }
+    section .container > div {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    section .card-wrapper {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-wrapper .card {
+        height: 175px;
+    }
 }
