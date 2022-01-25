@@ -12,6 +12,19 @@
       a:hover {
         color: red;
       }
+      .custom-bullet {
+        list-style-type: none;
+      }
+      .custom-bullet li::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-color: orange;
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+      }
     </style>
   </head>
   <body>
@@ -70,5 +83,20 @@
       consequuntur ratione! Enim maiores repellat nihil praesentium nisi,
       aperiam facere quaerat!
     </p>
+
+    <h2>Pesudo Selector ::before/::after</h2>
+
+    <ul class="custom-bullet">
+      <li>test 1</li>
+      <li>test 2</li>
+      <li>test 3</li>
+      <li>test 4</li>
+      <li>test 5</li>
+      <li>test 6</li>
+      <li>test 7</li>
+      <li>test 8</li>
+      <li>test 9</li>
+      <li>test 10</li>
+    </ul>
   </body>
 </html>
